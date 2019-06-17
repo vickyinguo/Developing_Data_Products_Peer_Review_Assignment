@@ -1,11 +1,8 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
+# This application shows the relationship between car weight and mpg using mtcars dataset in R.
+  
+  # It has 2 histograms which you can change number of bins to see how car weight and mpg correlates, 
+  # and a regression model which you can change number of points in the model. You can also see the R squre value of 
+  # the regression model - a measure of fitness of the model - when you change the number of points in the model.
 
 library(shiny)
 
